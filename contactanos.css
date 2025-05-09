@@ -1,0 +1,58 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(imagenes/contacto.jpg);
+    background-size: cover;
+}
+.nav-links {
+    list-style: none;         
+    display: flex;           
+    gap: 20px;                
+    margin: 0;
+    padding: 0;
+    flex: 1;                  
+    justify-content: flex-end;
+    font-size: 20px; 
+  }
+  
+.nav-links li a {
+    color: orange;
+    text-decoration: none;
+    display: block;
+}
+.navbarr{
+    list-style: none;
+    padding: 0;
+    background: grey;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+.navbarr {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px 40px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: orange;
+    font-size: 15px
+  }
+.navbarr li a{
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+    display: block;   
+}
+
+.navbarr li{
+    display: inline-block;
+    text-align: left;
+}
+
+.navbarr a:hover{
+    color:grey;
+}
+.menu {
+    color:black;
+    text-decoration: none;
+    display: block;          
+}
